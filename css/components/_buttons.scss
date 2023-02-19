@@ -1,0 +1,32 @@
+.btn{
+  padding: 8px 16px;
+  font-family: $font2;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  i{
+    margin-right: 5px;
+  }
+}
+.btn--white{
+  color: black;
+  border: 1px solid #ccc;
+  
+  &:hover{
+    background-color: #ccc;
+  }
+}
+.btn--black{
+  color: #fff;
+  background-color: black;
+  span{
+    padding: 0px 8px;
+    margin-left: 5px;
+    background-color: #fff;
+    color: black;
+  }
+  &:hover{
+    color: black;
+    background-color: #ccc;
+  }
+}
